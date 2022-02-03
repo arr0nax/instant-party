@@ -1,7 +1,10 @@
 {
-  "name": "socket-chat-example",
+  "name": "instant-party",
   "version": "0.0.1",
-  "description": "my first socket.io app",
+  "description": "instant party for you and friends",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "express": "^4.15.2",
     "socket.io": "^2.2.0"
