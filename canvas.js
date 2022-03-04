@@ -124,6 +124,25 @@ function drawMessages() {
       messages.splice(i, 1);
     }
   }
+  drawHeader();
+  drawFooter();
+}
+
+function drawHeader() {
+  textSize(40);
+  stroke('#000');
+  strokeWeight(4);
+  fill('#FFF');
+  text("~ ~ ~ VISIT VEROS.WORLD ~ ~ ~", frameCount % windowWidth, 50);
+
+}
+
+function drawFooter() {
+  stroke('#000');
+  strokeWeight(4);
+  fill('#FFF');
+  text("~ ~ ~ VISIT VEROS.WORLD ~ ~ ~", (frameCount - windowWidth / 2) % windowWidth, windowHeight - 50);
+
 }
 
 class Boid {
@@ -188,7 +207,7 @@ function sinColor2() {
 }
 
 function reset() {
-  messages.push(new Message('LONG DISTANCE HUSBAND'));
+  messages.push(new Message('VEROS.WORLD'));
   dorotate = false;
   mascale = 1;
   gravity = false;
