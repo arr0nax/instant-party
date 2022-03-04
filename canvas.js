@@ -22,24 +22,24 @@ let mike;
 let krey;
 let nut;
 function preload() {
-  boticelli = loadImage('images/boticelli.png');
-  dali = loadImage('images/dali.png');
-  davinci = loadImage('images/davinci.png');
-  hokusai = loadImage('images/hokusai.png');
-  monet = loadImage('images/monet.png');
-  picasso = loadImage('images/picasso.png');
-  munch = loadImage('images/munch.png');
-  meh_cat = loadImage('images/meh_cat.png');
-  attack_cat = loadImage('images/attack_cat.png');
-  surprise_cat = loadImage('images/surprise_cat.png');
-  lazy_cat = loadImage('images/lazy_cat.png');
-  classic_sheep = loadImage('images/classic_sheep.png');
-  happy_sheep = loadImage('images/happy_sheep.png');
-  chimp = loadImage('images/chimp.png');
-  shrek = loadImage('images/shrek.png');
-  mike = loadImage('images/mike.png');
-  krey = loadImage('images/krey.png');
-  nut = loadImage('images/nut.png');
+  // boticelli = loadImage('images/boticelli.png');
+  // dali = loadImage('images/dali.png');
+  // davinci = loadImage('images/davinci.png');
+  // hokusai = loadImage('images/hokusai.png');
+  // monet = loadImage('images/monet.png');
+  // picasso = loadImage('images/picasso.png');
+  // munch = loadImage('images/munch.png');
+  // meh_cat = loadImage('images/meh_cat.png');
+  // attack_cat = loadImage('images/attack_cat.png');
+  // surprise_cat = loadImage('images/surprise_cat.png');
+  // lazy_cat = loadImage('images/lazy_cat.png');
+  // classic_sheep = loadImage('images/classic_sheep.png');
+  // happy_sheep = loadImage('images/happy_sheep.png');
+  // chimp = loadImage('images/chimp.png');
+  // shrek = loadImage('images/shrek.png');
+  // mike = loadImage('images/mike.png');
+  // krey = loadImage('images/krey.png');
+  // nut = loadImage('images/nut.png');
 }
 
 $(function () {
